@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<meta name="layout" content="bootstrap-main"/>
+		<meta name="layout" content="kickstart"/>
 		<title>Welcome to Grails+Twitter Bootstrap in 5 minutes</title>
 	</head>
  <body>
