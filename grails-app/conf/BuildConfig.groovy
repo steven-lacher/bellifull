@@ -52,6 +52,7 @@ grails.project.dependency.resolution = {
         // runtime 'org.postgresql:postgresql:9.3-1101-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
 		runtime 'postgresql:postgresql:8.4-702.jdbc3'
+		runtime 'postgresql:postgresql:9.1-901-1.jdbc4'
     }
 
     plugins {
@@ -69,7 +70,8 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.11.1"
 		
 		compile ":spring-security-core:2.0-RC4"
-
+		compile ":heroku:1.0.1"
+		compile ":cloud-support:1.0.11"
 	//	compile ":kickstart-with-bootstrap:1.1.0"
 		
         // Uncomment these to enable additional asset-pipeline capabilities
